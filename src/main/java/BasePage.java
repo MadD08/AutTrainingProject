@@ -5,7 +5,7 @@ public class BasePage {
     protected WebDriver driver;
     protected WebDriverWait webDriverWait;
 
-    public BasePage(WebDriver driver){
+    public BasePage(WebDriver driver) {
         this.driver = driver;
         webDriverWait = new WebDriverWait(driver, 5);
     }
