@@ -14,6 +14,7 @@ public class SelectedRepositoryPage extends BasePage{
     }
 
     public WebElement findIssues() {
+        webDriverWait.until(elementToBeClickable(driver.findElement(issuesTabLocator)));
         return driver.findElement(issuesTabLocator);
     }
 
