@@ -15,7 +15,7 @@ public class IssuesTab extends BasePage{
     }
 
     public WebElement findNewIssueButton() {
-        webDriverWait.until(elementToBeClickable(driver.findElement(newIssueLocator)));
+        Assertions.assertTrue(driver.findElement(newIssueLocator).isDisplayed());
         return driver.findElement(newIssueLocator);
     }
 
