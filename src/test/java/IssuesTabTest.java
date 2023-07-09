@@ -6,7 +6,7 @@ public class IssuesTabTest extends BaseTest {
 
     @Test
     public void createNewIssueCheck() {
-
+        BasicSteps.logIn();
         BasicSteps.clickOnRepoFromTheList();
         SelectedRepositoryPage selectedRepositoryPage = new SelectedRepositoryPage(driver);
         selectedRepositoryPage.goToIssueTab();
