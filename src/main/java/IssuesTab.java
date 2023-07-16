@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 
 public class IssuesTab extends BasePage {
 
-    By newIssueLocator = By.xpath("//a[@class='btn btn-primary']");
+    private By newIssueLocator = By.xpath("//a[@class='btn btn-primary']");
 
 
     public IssuesTab(WebDriver driver) {

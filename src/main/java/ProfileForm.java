@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 public class ProfileForm extends BasePage {
 
-    By yourRepositButtonLocator = By.xpath("//span[contains(text(), \"Your repositories\")]/parent::a");
+    private By yourRepositButtonLocator = By.xpath("//span[contains(text(), \"Your repositories\")]/parent::a");
 
     public ProfileForm(WebDriver driver) {
         super(driver);

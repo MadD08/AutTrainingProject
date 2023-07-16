@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 
 public class MainPage extends BasePage {
 
-    By imgLocator = By.xpath("//img[@class='avatar circle'][1]");
+    private By imgLocator = By.xpath("//img[@class='avatar circle'][1]");
 
     public MainPage(WebDriver driver) {
         super(driver);

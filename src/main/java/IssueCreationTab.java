@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 
 public class IssueCreationTab extends BasePage {
 
-    By titleInputLocator = By.xpath("//input[@class='form-control required title js-session-resumable js-quick-submit input-lg input-block input-contrast']");
+    private By titleInputLocator = By.xpath("//input[@class='form-control required title js-session-resumable js-quick-submit input-lg input-block input-contrast']");
 
     public IssueCreationTab(WebDriver driver) {
         super(driver);
