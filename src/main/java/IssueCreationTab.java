@@ -8,7 +8,7 @@ public class IssueCreationTab extends BasePage {
     private final static String TITLE = "Issue Creation Page";
 
     public IssueCreationTab(WebDriver driver) {
-        super(driver,TITLE);
+        super(driver, TITLE);
     }
 
     public WebElement findTitleInput() {
