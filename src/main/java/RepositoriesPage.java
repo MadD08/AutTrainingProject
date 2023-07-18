@@ -5,9 +5,10 @@ import org.openqa.selenium.WebDriver;
 public class RepositoriesPage extends BasePage {
 
     private By repoNameLocator = By.xpath("//h3[@class='wb-break-all']");
+    private final static String TITLE = "Repo Page";
 
     public RepositoriesPage(WebDriver driver) {
-        super(driver);
+        super(driver, TITLE);
     }
 
     public SelectedRepositoryPage goToSpecificRepository() {

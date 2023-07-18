@@ -1,0 +1,35 @@
+15:17:30 16.07.2023 Home Page: DEBUG- [0;34mPage Home PageHomePage[0m
+15:17:31 16.07.2023 Login Page: DEBUG- [0;34mPage Login PageLoginPage[0m
+15:17:32 16.07.2023 Login Page: INFO - [0;32mSuccessful Authorization[0m
+15:17:32 16.07.2023 Main Page: DEBUG- [0;34mPage Main PageMainPage[0m
+15:17:32 16.07.2023 Main Page: DEBUG- [0;34mPage Main PageMainPage[0m
+15:17:32 16.07.2023 Profile Page: DEBUG- [0;34mPage Profile PageProfileForm[0m
+15:17:32 16.07.2023 Repo Page: DEBUG- [0;34mPage Repo PageRepositoriesPage[0m
+15:17:32 16.07.2023 Repo Page: DEBUG- [0;34mPage Repo PageRepositoriesPage[0m
+15:17:34 16.07.2023 Selected Repo Page: DEBUG- [0;34mPage Selected Repo PageSelectedRepositoryPage[0m
+15:17:34 16.07.2023 Selected Repo Page: DEBUG- [0;34mPage Selected Repo PageSelectedRepositoryPage[0m
+15:17:36 16.07.2023 Issue's Tab: DEBUG- [0;34mPage Issue's TabIssuesTab[0m
+15:17:36 16.07.2023 Issue's Tab: DEBUG- [0;34mPage Issue's TabIssuesTab[0m
+15:23:41 16.07.2023 Home Page: DEBUG- [0;34mPage Home PageHomePage[0m
+15:23:41 16.07.2023 Login Page: DEBUG- [0;34mPage Login PageLoginPage[0m
+15:23:43 16.07.2023 Login Page: INFO - [0;32mSuccessful Authorization[0m
+15:23:43 16.07.2023 Main Page: DEBUG- [0;34mPage Main PageMainPage[0m
+15:23:43 16.07.2023 Main Page: DEBUG- [0;34mPage Main PageMainPage[0m
+15:23:43 16.07.2023 Profile Page: DEBUG- [0;34mPage Profile PageProfileForm[0m
+15:24:02 16.07.2023 Home Page: DEBUG- [0;34mPage Home PageHomePage[0m
+15:24:02 16.07.2023 Login Page: DEBUG- [0;34mPage Login PageLoginPage[0m
+15:24:02 16.07.2023 Login Page: DEBUG- [0;34mPage Login PageLoginPage[0m
+15:24:03 16.07.2023 IssuesTabTest: INFO - [0;32mFailed login[0m
+15:24:36 16.07.2023 Home Page: DEBUG- [0;34mPage Home PageHomePage[0m
+15:24:36 16.07.2023 Login Page: DEBUG- [0;34mPage Login PageLoginPage[0m
+15:24:38 16.07.2023 Login Page: INFO - [0;32mSuccessful Authorization[0m
+15:24:38 16.07.2023 Main Page: DEBUG- [0;34mPage Main PageMainPage[0m
+15:24:38 16.07.2023 Main Page: DEBUG- [0;34mPage Main PageMainPage[0m
+15:24:38 16.07.2023 Profile Page: DEBUG- [0;34mPage Profile PageProfileForm[0m
+15:24:38 16.07.2023 Repo Page: DEBUG- [0;34mPage Repo PageRepositoriesPage[0m
+15:24:38 16.07.2023 Repo Page: DEBUG- [0;34mPage Repo PageRepositoriesPage[0m
+15:24:39 16.07.2023 Selected Repo Page: DEBUG- [0;34mPage Selected Repo PageSelectedRepositoryPage[0m
+15:24:39 16.07.2023 Selected Repo Page: DEBUG- [0;34mPage Selected Repo PageSelectedRepositoryPage[0m
+15:24:42 16.07.2023 Issue's Tab: DEBUG- [0;34mPage Issue's TabIssuesTab[0m
+15:24:42 16.07.2023 Issue's Tab: DEBUG- [0;34mPage Issue's TabIssuesTab[0m
+15:24:42 16.07.2023 IssuesTabTest: INFO - [0;32mIssue tab was opened[0m

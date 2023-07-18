@@ -5,9 +5,10 @@ import org.openqa.selenium.WebElement;
 
 public class SelectedRepositoryPage extends BasePage {
     private By issuesTabLocator = By.linkText("Issues");
+    private final static String TITLE = "Selected Repo Page";
 
     public SelectedRepositoryPage(WebDriver driver) {
-        super(driver);
+        super(driver, TITLE);
     }
 
     public WebElement findIssues() {
