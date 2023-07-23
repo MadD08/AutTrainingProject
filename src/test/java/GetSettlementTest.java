@@ -1,10 +1,10 @@
-import api.Address;
 import api.BaseApiTest;
 import api.Settlement;
 import io.restassured.http.ContentType;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
 
 import java.io.File;
 import java.util.HashMap;
@@ -18,7 +18,7 @@ public class GetSettlementTest extends BaseApiTest {
     String API_key = "5d77c41062f127845411d9d64ebd0da8";
     Map<String, Object> reqBody = new HashMap<>();
 
-    @BeforeEach
+    @BeforeMethod
     public void setReqBody() {
         Map<String, String> methodProperties = new HashMap<>();
         methodProperties.put("Warehouse", "1");
@@ -61,6 +61,6 @@ public class GetSettlementTest extends BaseApiTest {
                 .body().jsonPath().getList("data", Settlement.class);
 
         System.out.println(settlementList);
-        settlementList.forEach(x -> Assertions.assertTrue(x.getAreaDescription().contains("Сумська область")));
+        settlementList.forEach(x -> Assert.assertTrue(x.getAreaDescription().contains("Сумська область")));
     }
 }
