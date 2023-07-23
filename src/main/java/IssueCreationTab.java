@@ -14,4 +14,9 @@ public class IssueCreationTab extends BasePage {
     public WebElement findTitleInput() {
         return driver.findElement(titleInputLocator);
     }
+
+    public IssueCreationTab enterTitle (String title){
+        driver.findElement(titleInputLocator).sendKeys(title);
+        return this;
+    }
 }
